@@ -1,0 +1,42 @@
+.menu {
+  font-size: 1.4rem;
+  background-image: linear-gradient(25deg, #193441, #3e606f);
+  overflow: auto;
+
+  nav {
+    flex: 1;
+  }
+
+  &__items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__item {
+    flex: 1;
+    font-size: 1.8rem;
+    padding: 1.4rem 2rem;
+    transition: all 0.4s ease-in;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  &__text {
+    flex: 1;
+    text-transform: uppercase;
+    color: inherit;
+    letter-spacing: 1.2px;
+  }
+
+  &__item:hover {
+    background-color: #193441;
+  }
+}

@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #242424;
+}
+
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+
+.u-center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.u-font-3 {
+  font-size: 3.2rem;
+}
+
+.btn {
+  border: none;
+  padding: 1.2rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  border-radius: 3px;
+  transition: all 0.3s ease-in;
+}
+.btn--plus {
+  background-color: #0c8d54;
+  color: #ffffff;
+}
+.btn--minus {
+  background-color: #f2293a;
+  color: #ffffff;
+}
+.btn--plus:hover {
+  background-color: #0a7746;
+}
+.btn--minus:hover {
+  background-color: #c41f2d;
+  color: #ffffff;
+}
+
+.u-margin-right-small {
+  margin-right: 1.2rem;
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.2rem;
+}
+
+.form-input {
+  padding: 1.2rem;
+  width: 30rem;
+  outline: none;
+  font-size: inherit;
+  color: inherit;
+  border-radius: 3px;
+  border: 1px solid #193441;
+}
+
+.u-text-red {
+  color: #c41f2d;
+}
+
+.u-text-bold {
+  font-weight: 600;
+}
+
+.u-display-flex {
+  display: flex;
+}
+
+.u-gap-1 {
+  gap: 1.2rem;
+}
+
+.u-gap-2 {
+  gap: 2.4rem;
+}/*# sourceMappingURL=App.css.map */
